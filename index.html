@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<body id="body">
+
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <button class='btn' id="about-button" type="button" aria-label="Learn more about me">About me</button>
+          <div class="triangle" aria-hidden="true"></div>
+        </li>
+        <li>
+          <button class='btn' id="projects-button" type="button" aria-label="View my projects">My projects</button>
+          <div class="triangle" aria-hidden="true"></div>
+        </li>
+        <li>
+          <a href="mailto:jack.delaney.personal@gmail.com" target="_blank" aria-label="Email me (opens in new window)">
+            <button class='btn' type="button">Contact</button>
+          </a>
+          
+        </li>
+      </ul>
+      <ul id="second-list">
+        <li>
+          <a href="https://github.com/deorai" target="_blank" aria-label="GitHub profile (opens in new tab)">
+            <img src="images/github-mark.png" class="social-images" alt="GitHub profile icon">
+          </a>
+          <a href="https://www.linkedin.com/in/jdelaneydublin/" target="_blank" aria-label="LinkedIn profile (opens in new tab)">
+            <img src="images/LI-In-Bug.png" class="social-images" alt="LinkedIn profile icon">
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="background-snake">
+
+  </header>
+  <main>
+    <div id="scroll-progress"></div>
+
+    <div class="background-holder"></div>
+
+    <section id="messages">
+
+      <h2 id="words-1" aria-live="polite"></h2>
+      <br>
+    </section>
+    <section id="about-me">
+      <div id="text-image-split">
+        <div id="aboutme-text-and-title">
+          <h2 id="aboutme-title">About me</h2>
+          <p id="aboutme-text">Hi there! I'm Jack, and I'm deeply immersed in the fascinating world of full-stack
+            development. My passion lies in leveraging technology to streamline and simplify everyday experiences,
+            firmly believing that the right tools can automate mundane tasks, bring order to chaos, and ultimately free
+            up precious time for us to indulge in the joys of life. Though many of my projects are behind the scenes,
+            I'm excited about the prospect of bringing some of these innovations into the public sphere for everyone to
+            benefit from. As a lifelong learner, my journey is far from over; there's a wealth of knowledge out there,
+            and I'm on a mission to absorb as much as I can, with the promise of a host of new developments on the
+            horizon. Stay tuned!
+
+          </p>
+
+        </div>
+        <img id="aboutme-image" src="images/jack-image.png"
+          alt="A digital image of Jack Delaney posing in front of a code-themed backdrop">
+      </div>
+    </section>
+
+    <section id="projects">
+
+      <div id="cards-wrapper-outline">
+        <h3>Projects</h3>
+
+        <div id="cards-wrapper">
+          <div class="card-container">
+            <div class="card">
+              <div class="front">
+                <img src="images/jacques-gpt-image-1.svg" class="project-image" alt="Preview of Jacques GPT project logo">
+              </div>
+              <div class="back">
+                <h4>Jacques GPT</h4>
+                <p>JacquesGPT is a chatbot built with Node.js and Express, deployed on Heroku, using OpenAI’s library...
+                </p>
+                <a href="https://jacques-gpt-e99d0c81d4e8.herokuapp.com/" id="JacquesGPT-link" target="_blank"
+                  aria-label="Check out the Jacques GPT project">Check it out here</a>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="card-container">
+            <div class="card">
+              <div class="front">
+                <img src="images/upcoming-inovations.png" alt="Teaser image for upcoming innovations" class="project-image">
+              </div>
+              <div class="back">
+                <h4>More on the horizon</h4>
+                <p>Solving problems, one line of code at a time. Exciting reveals to come. Keep watching this space!</p>
+                <h4 class="question-mark">?</h4>
+              </div>
+            </div>
+
+
+          </div>
+
+          <div class="card-container">
+            <div class="card">
+              <div class="front">
+                <img src="images/coming-soon.png" alt="Preview image for coming soon projects" class="project-image">
+              </div>
+              <div class="back">
+                <h4>Coming soon...</h4>
+                <p>Tackling challenges with innovative code. Anticipate the launch of something special—details
+                  forthcoming!</p>
+                <h4 class="question-mark">?</h4>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Copyright © 2023 Jack Delaney</p>
+    <ul>
+      <li><a href="https://github.com/deorai" target="_blank" class="footer-links"
+          aria-label="GitHub (opens in new tab)">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/jdelaneydublin/" target="_blank" class="footer-links"
+          aria-label="Linkedin (opens in new tab)">Linkedin</a></li>
+      <li><a href="mailto:jack.delaney.personal@gmail.com" target="_blank" class="footer-links"
+          aria-label="Email Me (opens in new email)">Email Me</a></li>
+    </ul>
+  </footer>
+  <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+  <script src="js/libs/jsband-min.js"></script>
+  </div>
+</body>
+
+</html>
