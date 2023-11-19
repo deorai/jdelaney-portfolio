@@ -729,7 +729,7 @@ footer p {
 
     .btn {
         margin: 10px;
-        padding: 10px;
+        padding: 3px;
     }
 
     #words-1 {
@@ -748,8 +748,8 @@ footer p {
 
 
     .card-container {
-        width: 160px;
-        height: 160px;
+        width: 175px;
+        height: 175px;
     }
 
     .card-container h4 {
