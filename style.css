@@ -7,7 +7,7 @@
     font-size: 16px;
     color: hsl(0, 0%, 5%);
     cursor: url('images/cursor-1.png'), auto;
-    scroll-snap-type: y mandatory;
+    /* scroll-snap-type: y mandatory; */
     scroll-behavior: smooth;
 }
 
