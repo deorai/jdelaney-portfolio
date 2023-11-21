@@ -58,7 +58,6 @@ nav {
     display: flex;
     justify-content: space-between;
     margin: 1rem auto 0;
-    /* scroll-snap-align: start; */
 }
 
 /* List Styles */
@@ -179,7 +178,6 @@ section#messages {
     align-items: center;
     height: 100vh;
     text-align: center;
-    /* scroll-snap-align: start; */
 }
 
 #words-1 {
@@ -210,7 +208,6 @@ section#about-me {
     justify-content: center;
     height: 100vh;
     opacity: 0;
-    /* scroll-snap-align: start; */
 }
 
 @keyframes fadeIn {
@@ -278,9 +275,7 @@ section#projects {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* width: 100%; */
     height: 100vh;
-    /* scroll-snap-align: start; */
 }
 
 /* Card Styles */
