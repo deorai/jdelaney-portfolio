@@ -32,11 +32,11 @@ const iterator = (sentence, delay) => {
   }
 };
 
+
+
 // ------------------------
 // Execute Text Animation
 // ------------------------
-
-
 
 iterator("Hey, I'm Jack.....🤝", 0);
 iterator('I like intuitive tools and clean designs  🛠️', 3000);
