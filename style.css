@@ -840,18 +840,6 @@ footer p {
 
 }
 
-@media only screen and (max-height: 550px) {
-   #aboutme-text {
-    font-size: 1rem;
-   }
-
-   .card-container {
-    height: 120px;
-    width: 120px;
-}
-
-}
-
 @media only screen and (max-height: 450px) {
     .card-container {
         height: 180px;
