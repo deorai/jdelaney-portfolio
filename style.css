@@ -172,7 +172,6 @@ main {
 
 /* Messages Section */
 section#messages {
-    overflow-y: auto;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -205,7 +204,6 @@ section#messages {
 
 /* About Me Section */
 section#about-me {
-    overflow-y: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -274,7 +272,6 @@ section#about-me {
 
 /* Projects Section */
 section#projects {
-    overflow-y: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
