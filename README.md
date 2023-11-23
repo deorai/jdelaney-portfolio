@@ -8,7 +8,7 @@ I'm journeying through the world of full-stack development, with a passion for c
 
 🔍 While my creations often work quietly behind the scenes, I'm excited to share them with you here.
 
-✨ Stay tuned for a blend of code and relaxation.
+✨ Stay tuned for some more projects on the way!
 
 ## Portfolio
 
