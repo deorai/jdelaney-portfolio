@@ -1,4 +1,6 @@
-# Jack Delaney Portfolio
+# Jack Delaney: Full-stack™ developer in-progress
+<img src="images/jack-image.png" alt="Jack" width="300"/>
+
 
 ## About Me
 
